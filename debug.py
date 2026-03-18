@@ -1,11 +1,10 @@
 def find_max(a, b, c):
-  max_number = a
-  if a > b and a > c:
-    max_number = a
-  elif b > a and b > c:
-    max_number = b
+  if a >= b and a >= c:
+    return a 
+  elif b >= a and b >= c:
+    return b 
   else:
-    max_number = c
+    return c 
 
 #FREEZE CODE BEGIN
 x = int(input("Enter a number:\n"))
