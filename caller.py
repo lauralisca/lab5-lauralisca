@@ -5,5 +5,5 @@ x = int(input())
 y = float(input())
 # FREEZE CODE END
 
-result = x/y
+result = (x+y)/2
 print(float(result))
